@@ -1,8 +1,5 @@
-<https://leetcode.com/problems/remove-element/>
-
+https://leetcode.com/problems/remove-element/
 //Solution:-
-
-```java
 class Solution {
     public int removeElement(int[] nums, int val) {
         int j = 0;
@@ -11,9 +8,7 @@ class Solution {
                 nums[j] = nums[i]; 
                 j++;
             }
-        
         }
         return j;
     }
 }
-```
